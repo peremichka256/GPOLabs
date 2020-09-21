@@ -65,9 +65,79 @@ int main()
 			}
 			case 10:
 			{
-				Task_1134();
+				Task_1141();
 				break;
 			}
+			case 11:
+			{
+				Task_1142();
+				break;
+			}
+			case 12:
+			{
+				Task_1143();
+				break;
+			}
+			case 13:
+			{
+				Task_1144();
+				break;
+			}
+			case 14:
+			{
+				Task_1145();
+				break;
+			}
+			case 15:
+			{
+				Task_1146();
+				break;
+			case 16:
+			{
+				Task_1148();
+				break;
+			}
+			case 17:
+			{
+				Task_1151();
+				break;
+			}
+			case 18:
+			{
+				Task_1152();
+				break;
+			}
+			case 19:
+			{
+				Task_1153();
+				break;
+			}
+			case 20:
+			{
+				Task_1154();
+				break;
+			}
+			case 21:
+			{
+				Task_1155();
+				break;
+			}
+			case 22:
+			{
+				Task_1156();
+				break;
+			}
+			case 23:
+			{
+				Task_1157();
+				break;
+			}
+			case 24:
+			{
+				Task_1158();
+				break;
+			}
+			}}
 		}
 	}
 }
