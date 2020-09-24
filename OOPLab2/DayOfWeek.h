@@ -1,0 +1,12 @@
+#pragma once
+
+enum DayOfWeek
+{
+	MONDAY,
+	TUESDAY,
+	WENDSDAY,
+	THURSDAY,
+	FRIDAY,
+	SATURDAY,
+	SUNDAY
+};
