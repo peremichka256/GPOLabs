@@ -131,25 +131,25 @@
     <ClCompile Include="SortException.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Circle.h" />
-    <ClInclude Include="Color.h" />
-    <ClInclude Include="DayOfWeek.h" />
     <ClInclude Include="DemoDynamicFunctions.h" />
     <ClInclude Include="DemoEnumsFunctions.h" />
     <ClInclude Include="DemoFunctions.h" />
-    <ClInclude Include="Flight.h" />
-    <ClInclude Include="FormOfEducatin.h" />
-    <ClInclude Include="Genre.h" />
-    <ClInclude Include="ManufacturerOfSmartphones.h" />
-    <ClInclude Include="Movie.h" />
+    <ClInclude Include="Enums\Color.h" />
+    <ClInclude Include="Enums\DayOfWeek.h" />
+    <ClInclude Include="Enums\FormOfEducatin.h" />
+    <ClInclude Include="Enums\Genre.h" />
+    <ClInclude Include="Enums\ManufacturerOfSmartphones.h" />
+    <ClInclude Include="Enums\Season.h" />
     <ClInclude Include="OutputFunctions.h" />
-    <ClInclude Include="PhoneContact.h" />
-    <ClInclude Include="Rectangle.h" />
-    <ClInclude Include="Season.h" />
-    <ClInclude Include="Song.h" />
     <ClInclude Include="SortException.h" />
-    <ClInclude Include="Subject.h" />
-    <ClInclude Include="Time.h" />
+    <ClInclude Include="Structs\Circle.h" />
+    <ClInclude Include="Structs\Flight.h" />
+    <ClInclude Include="Structs\Movie.h" />
+    <ClInclude Include="Structs\PhoneContact.h" />
+    <ClInclude Include="Structs\Rectangle.h" />
+    <ClInclude Include="Structs\Song.h" />
+    <ClInclude Include="Structs\Subject.h" />
+    <ClInclude Include="Structs\Time.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -53,50 +53,50 @@
     <ClInclude Include="DemoDynamicFunctions.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="Flight.h">
-      <Filter>Файлы заголовков\Structs</Filter>
-    </ClInclude>
-    <ClInclude Include="Movie.h">
-      <Filter>Файлы заголовков\Structs</Filter>
-    </ClInclude>
-    <ClInclude Include="PhoneContact.h">
-      <Filter>Файлы заголовков\Structs</Filter>
-    </ClInclude>
-    <ClInclude Include="Rectangle.h">
-      <Filter>Файлы заголовков\Structs</Filter>
-    </ClInclude>
-    <ClInclude Include="Song.h">
-      <Filter>Файлы заголовков\Structs</Filter>
-    </ClInclude>
-    <ClInclude Include="Subject.h">
-      <Filter>Файлы заголовков\Structs</Filter>
-    </ClInclude>
-    <ClInclude Include="Time.h">
-      <Filter>Файлы заголовков\Structs</Filter>
-    </ClInclude>
-    <ClInclude Include="Circle.h">
-      <Filter>Файлы заголовков\Structs</Filter>
-    </ClInclude>
-    <ClInclude Include="Color.h">
-      <Filter>Файлы заголовков\Enums</Filter>
-    </ClInclude>
-    <ClInclude Include="DayOfWeek.h">
-      <Filter>Файлы заголовков\Enums</Filter>
-    </ClInclude>
-    <ClInclude Include="Genre.h">
-      <Filter>Файлы заголовков\Enums</Filter>
-    </ClInclude>
-    <ClInclude Include="FormOfEducatin.h">
-      <Filter>Файлы заголовков\Enums</Filter>
-    </ClInclude>
-    <ClInclude Include="ManufacturerOfSmartphones.h">
-      <Filter>Файлы заголовков\Enums</Filter>
-    </ClInclude>
-    <ClInclude Include="Season.h">
-      <Filter>Файлы заголовков\Enums</Filter>
-    </ClInclude>
     <ClInclude Include="DemoEnumsFunctions.h">
       <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Structs\Circle.h">
+      <Filter>Файлы заголовков\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="Structs\Flight.h">
+      <Filter>Файлы заголовков\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="Structs\Movie.h">
+      <Filter>Файлы заголовков\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="Structs\PhoneContact.h">
+      <Filter>Файлы заголовков\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="Structs\Rectangle.h">
+      <Filter>Файлы заголовков\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="Structs\Song.h">
+      <Filter>Файлы заголовков\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="Structs\Subject.h">
+      <Filter>Файлы заголовков\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="Structs\Time.h">
+      <Filter>Файлы заголовков\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="Enums\Color.h">
+      <Filter>Файлы заголовков\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="Enums\DayOfWeek.h">
+      <Filter>Файлы заголовков\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="Enums\FormOfEducatin.h">
+      <Filter>Файлы заголовков\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="Enums\Genre.h">
+      <Filter>Файлы заголовков\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="Enums\ManufacturerOfSmartphones.h">
+      <Filter>Файлы заголовков\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="Enums\Season.h">
+      <Filter>Файлы заголовков\Enums</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
