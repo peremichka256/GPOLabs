@@ -3,12 +3,12 @@
 
 int main()
 {
-	unsigned int button;
 	bool isExitFromWhile = true;
 
 	while (isExitFromWhile)
 	{
 		PrintMainMenu();
+		unsigned int button;
 		cin >> button;
 		system("cls");
 
