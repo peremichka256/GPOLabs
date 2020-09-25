@@ -6,7 +6,6 @@
 
 int main()
 {
-	unsigned int button;
 	bool isExitFromWhile = true;
 
 	while (isExitFromWhile)
