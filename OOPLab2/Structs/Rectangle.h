@@ -9,3 +9,6 @@ struct Rectangle
 	double Width;
 	string Color;
 };
+
+Rectangle* MakeRectangle(double length, double width, string color);
+Rectangle* CopyRectangle(Rectangle& rectangle); void WriteRectangle(Rectangle& rectangle);

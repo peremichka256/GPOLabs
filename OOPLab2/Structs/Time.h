@@ -9,3 +9,6 @@ struct Time
 	int Minute;
 	int Second;
 };
+
+Time* MakeTime(int hour, int minute, int second);
+Time* CopyTime(Time& time);

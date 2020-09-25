@@ -12,3 +12,7 @@ struct Movie
 	Genre Genre;
 	double Rating;
 };
+
+Movie* MakeMovie(string name, int Length, int yearOfRelease,
+	Genre genre, double rating);
+Movie* CopyMovie(Movie& movie);

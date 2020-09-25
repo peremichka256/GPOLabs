@@ -364,4 +364,3 @@ void FindMaxRectangle(Rectangle* rectangles, int count)
 	cout << "Rectangle with the largest area:" << endl;
 	WriteRectangle(max);
 }
-

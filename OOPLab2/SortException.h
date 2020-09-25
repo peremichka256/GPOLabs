@@ -5,4 +5,5 @@
 using namespace std;
 
 void Sort(double* values, int count);
+
 void DemoSort();

@@ -10,3 +10,6 @@ struct Circle
 	double Radius;
 	string Color;
 };
+
+Circle* MakeCircle(double x, double y, double radius, string color);
+Circle* CopyCircle(Circle& circle);
