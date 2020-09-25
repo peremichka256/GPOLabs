@@ -123,17 +123,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Circle.cpp" />
     <ClCompile Include="DemoDynamicFunctions.cpp" />
     <ClCompile Include="DemoEnumsFunctions.cpp" />
     <ClCompile Include="DemoFunctions.cpp" />
-    <ClCompile Include="Flight.cpp" />
     <ClCompile Include="Main.cpp" />
-    <ClCompile Include="Movie.cpp" />
     <ClCompile Include="OutputFunctions.cpp" />
-    <ClCompile Include="Rectangle.cpp" />
     <ClCompile Include="SortException.cpp" />
-    <ClCompile Include="Time.cpp" />
+    <ClCompile Include="Structs\Circle.cpp" />
+    <ClCompile Include="Structs\Flight.cpp" />
+    <ClCompile Include="Structs\Movie.cpp" />
+    <ClCompile Include="Structs\Rectangle.cpp" />
+    <ClCompile Include="Structs\Time.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DemoDynamicFunctions.h" />

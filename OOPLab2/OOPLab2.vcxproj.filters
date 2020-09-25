@@ -39,19 +39,19 @@
     <ClCompile Include="DemoEnumsFunctions.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Circle.cpp">
+    <ClCompile Include="Structs\Circle.cpp">
       <Filter>Файлы заголовков\Structs</Filter>
     </ClCompile>
-    <ClCompile Include="Flight.cpp">
+    <ClCompile Include="Structs\Flight.cpp">
       <Filter>Файлы заголовков\Structs</Filter>
     </ClCompile>
-    <ClCompile Include="Movie.cpp">
+    <ClCompile Include="Structs\Movie.cpp">
       <Filter>Файлы заголовков\Structs</Filter>
     </ClCompile>
-    <ClCompile Include="Rectangle.cpp">
+    <ClCompile Include="Structs\Rectangle.cpp">
       <Filter>Файлы заголовков\Structs</Filter>
     </ClCompile>
-    <ClCompile Include="Time.cpp">
+    <ClCompile Include="Structs\Time.cpp">
       <Filter>Файлы заголовков\Structs</Filter>
     </ClCompile>
   </ItemGroup>

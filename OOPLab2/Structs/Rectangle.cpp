@@ -1,4 +1,4 @@
-#include "Structs/Rectangle.h"
+#include "Rectangle.h"
 
 Rectangle* MakeRectangle(double length, double width, string color)
 {

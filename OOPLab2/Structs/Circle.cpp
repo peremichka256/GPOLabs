@@ -1,4 +1,4 @@
-#include "Structs/Circle.h"
+#include "Circle.h"
 
 Circle* MakeCircle(double x, double y, double radius, string color)
 {
