@@ -2,8 +2,8 @@
 
 enum FormOfEducatin
 {
-	INTERNAL,
-	EXTRAMURAL,
-	EVENING,
-	DISTANT
+	Intrenal,
+	Extramural,
+	Evening,
+	Distant
 };

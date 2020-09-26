@@ -2,10 +2,10 @@
 
 enum Genre
 {
-	COMEDY,
-	DRAMA,
-	THRILLER,
-	ACTION,
-	HORROR,
-	BLOCKBUSTER
+	Comedy,
+	Drama,
+	Thriller,
+	Action,
+	Horror,
+	Blockbuster
 };

@@ -2,11 +2,11 @@
 
 enum ManufacturerOfSmartphones
 {
-	APPLE,
-	HUAWEI,
-	SONY,
-	NOKIA,
-	XIAOMI,
-	HONOR,
-	SAMSUNG
+	Apple,
+	Huawei,
+	Sony,
+	Nokia,
+	Xiaomi,
+	Honor,
+	Samsung
 };

@@ -2,11 +2,11 @@
 
 enum DayOfWeek
 {
-	MONDAY,
-	TUESDAY,
-	WENDSDAY,
-	THURSDAY,
-	FRIDAY,
-	SATURDAY,
-	SUNDAY
+	Monday,
+	Tuesday,
+	Wendsday,
+	Thursday,
+	Friday,
+	Saturday,
+	Sunday
 };

@@ -132,7 +132,7 @@ void DemoMovie()
 	//2.2.3.1
 	Movie movie;
 	//movie.Genre = "Horror";
-	movie.Genre = HORROR;
+	movie.Genre = Horror;
 	movie.Length = 126;
 	movie.Name = "The Conjuring";
 	movie.Rating = 5.2;
@@ -159,21 +159,21 @@ void DemoMovie()
 	//2.2.3.3
 	Movie arrayOfMovies[3];
 	//arrayOfMovies[0].Genre = "Drama";
-	arrayOfMovies[0].Genre = DRAMA;
+	arrayOfMovies[0].Genre = Drama;
 	arrayOfMovies[0].Length = 126;
 	arrayOfMovies[0].Name = "Name1";
 	arrayOfMovies[0].Rating = 8.2;
 	arrayOfMovies[0].YearOfRelease = 2002;
 
 	//arrayOfMovies[1].Genre = "Horror";
-	arrayOfMovies[1].Genre = HORROR;
+	arrayOfMovies[1].Genre = Horror;
 	arrayOfMovies[1].Length = 97;
 	arrayOfMovies[1].Name = "Name2";
 	arrayOfMovies[1].Rating = 6.8;
 	arrayOfMovies[1].YearOfRelease = 2019;
 
 	//arrayOfMovies[2].Genre = "Comedy";
-	arrayOfMovies[2].Genre = COMEDY;
+	arrayOfMovies[2].Genre = Comedy;
 	arrayOfMovies[2].Length = 100;
 	arrayOfMovies[2].Name = "Name3";
 	arrayOfMovies[2].Rating = 2.1;
