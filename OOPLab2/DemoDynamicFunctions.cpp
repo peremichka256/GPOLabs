@@ -71,6 +71,7 @@ void FindShortestFlight(Flight* flights, int count)
 //2.2.7.1
 void DemoCircle()
 {
+	//TODO: где освобождение памяти?
 	Circle* circle1 = MakeCircle(5.0, 7.0, 7.5, "Red");
 	Circle* circle2 = MakeCircle(2.0, -12.0, 12.75, "Green");
 	Circle* circle3 = MakeCircle(-10.0, 10.0, 1.45, "Blue");

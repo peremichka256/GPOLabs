@@ -25,6 +25,7 @@ void Sort(double* values, int count)
 
 void DemoSort()
 {
+	//TODO: утечка памяти
 	int count = 5;
 	double* values = new double[count] {100.0, 249.0, 12.0, 45.9, 23.5};
 

@@ -74,6 +74,7 @@ int main()
 			}
 			case 8:
 			{
+				//TODO: утечка памяти
 				Rectangle* rectangle = MakeRectangle(12, 6.4, "Purple");
 				WriteRectangle(*rectangle);
 				Rectangle* copiedRectangle = CopyRectangle(*rectangle);

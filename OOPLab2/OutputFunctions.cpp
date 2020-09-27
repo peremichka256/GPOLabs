@@ -2,6 +2,7 @@
 
 void PrintMainMenu()
 {
+	//TODO: правильнее в начале написать цифру, а потом что это за пункт меню. Иначе цифры в тексте скачут гребенкой, неудобно находить нужный пункт
 	cout << endl << "__________MENU__________" << endl
 		<< "To demonstrate exception in Sort(), press 1. " << endl
 		<< "To DemoRectangle(), press 2. " << endl

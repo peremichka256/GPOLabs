@@ -178,6 +178,7 @@ void DemoMovieWithGenre()
 	movieWithGenre.YearOfRelease = 2020;
 
 	//2.2.9.3
+	//TODO: утечка памяти
 	Movie* movie = MakeMovie("Cool Name", 69, 1999, Drama, 9.9);
 
 	//2.2.9.4

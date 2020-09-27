@@ -157,6 +157,7 @@ void DemoMovie()
 		<< userMovie.Rating << endl << endl;
 
 	//2.2.3.3
+	//TODO: размер массива в переменную, использовать её
 	Movie arrayOfMovies[3];
 	//arrayOfMovies[0].Genre = "Drama";
 	arrayOfMovies[0].Genre = Drama;
@@ -226,6 +227,7 @@ void DemoTime()
 		<< endl << endl;
 
 	//2.2.3.3
+	//TODO: см. выше
 	Time arrayOfTime[5];
 	arrayOfTime[0].Hour = 7;
 	arrayOfTime[0].Minute = 30;
@@ -304,6 +306,7 @@ void ReadRectangle(Rectangle& rectagle)
 //2.2.5.3
 void DemoReadAndWriteRectangle()
 {
+	//TODO: см.выше
 	Rectangle arrayOfReactangles[5];
 
 	for (int i = 0; i < 5; i++)
