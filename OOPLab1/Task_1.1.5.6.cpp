@@ -1,5 +1,5 @@
 #include "Lab1_Tasks.h"
-
+//TODO: аналогично предыдущим замечаниям
 int CountLetters(char* array)
 {
 	int lettersCounter = 0;
@@ -17,7 +17,7 @@ int CountLetters(char* array)
 }
 
 void Task_1156()
-{
+{ //TODO: аналогично предыдущим замечаниям
 	char* charArray = new char[15]
 	{ 'j','6','3','g','7','2','6','&','3','1','p','k','4','_' };
 	cout << "Char array: ";

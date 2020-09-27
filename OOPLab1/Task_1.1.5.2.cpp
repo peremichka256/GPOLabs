@@ -2,6 +2,7 @@
 
 void Task_1152()
 {
+	//TODO: размер массива вынести в переменную, в объявлении массива и в циклах использовать переменную
 	bool* boolArray = new bool[7]{ true,false,true,true,false,true,false };
 
 	cout << "Array of bool: " << endl;
@@ -19,5 +20,5 @@ void Task_1152()
 	}
 
 	delete[] boolArray;
-	boolArray = nullptr;
+	boolArray = nullptr; //TODO: после освобождения памяти указатель и так должен быть равен nullptr. Проверь через отладку
 }
