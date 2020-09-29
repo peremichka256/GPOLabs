@@ -37,4 +37,5 @@ void DemoSort()
 	{
 		PrintExceptionCatched();
 	}
+	delete[] values;
 }

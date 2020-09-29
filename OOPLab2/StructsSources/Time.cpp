@@ -1,4 +1,4 @@
-#include "Time.h"
+#include "../StructsHeaders/Time.h"
 
 Time* MakeTime(int hour, int minute, int second)
 {

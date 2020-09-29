@@ -1,6 +1,6 @@
 #pragma once
 //TODO: грамошибка в названии
-enum FormOfEducatin
+enum FormOfEducation
 {
 	Intrenal,
 	Extramural,

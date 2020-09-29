@@ -6,7 +6,7 @@ void DemoEnums()
 	Color color = Blue;
 	DayOfWeek dayOfWeek = Tuesday;
 	Genre genre = Comedy;
-	FormOfEducatin formOfeducation = Distant;
+	FormOfEducation formOfeducation = Distant;
 	ManufacturerOfSmartphones manufacturer = Sony;
 	Season season = Summer;
 
@@ -21,7 +21,7 @@ void DemoEnums()
 
 	DayOfWeek arrayOfDays[3];
 	Genre arrayOfGenres[3];
-	FormOfEducatin arrayOfForms[3];
+	FormOfEducation arrayOfForms[3];
 	ManufacturerOfSmartphones arrayOfManufacturers[3];
 	Season arrayOfSeasons[3];
 
@@ -180,6 +180,7 @@ void DemoMovieWithGenre()
 	//2.2.9.3
 	//TODO: утечка памяти
 	Movie* movie = MakeMovie("Cool Name", 69, 1999, Drama, 9.9);
+	delete movie;
 
 	//2.2.9.4
 	Movie** arrayOfMovies = new Movie * [10];

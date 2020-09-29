@@ -86,4 +86,7 @@ void DemoCircle()
 	{
 		cout << "Functions MakeCircle() and CopyCircle() work";
 	}
+	delete circle1;
+	delete circle2;
+	delete circle3;
 }

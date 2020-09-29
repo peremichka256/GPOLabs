@@ -79,6 +79,8 @@ int main()
 				WriteRectangle(*rectangle);
 				Rectangle* copiedRectangle = CopyRectangle(*rectangle);
 				WriteRectangle(*copiedRectangle);
+				delete rectangle;
+				delete copiedRectangle;
 				break;
 			}
 			case 9:

@@ -129,11 +129,11 @@
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="OutputFunctions.cpp" />
     <ClCompile Include="SortException.cpp" />
-    <ClCompile Include="Structs\Circle.cpp" />
-    <ClCompile Include="Structs\Flight.cpp" />
-    <ClCompile Include="Structs\Movie.cpp" />
-    <ClCompile Include="Structs\Rectangle.cpp" />
-    <ClCompile Include="Structs\Time.cpp" />
+    <ClCompile Include="StructsSources\Circle.cpp" />
+    <ClCompile Include="StructsSources\Flight.cpp" />
+    <ClCompile Include="StructsSources\Movie.cpp" />
+    <ClCompile Include="StructsSources\Rectangle.cpp" />
+    <ClCompile Include="StructsSources\Time.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DemoDynamicFunctions.h" />
@@ -141,20 +141,20 @@
     <ClInclude Include="DemoFunctions.h" />
     <ClInclude Include="Enums\Color.h" />
     <ClInclude Include="Enums\DayOfWeek.h" />
-    <ClInclude Include="Enums\FormOfEducatin.h" />
+    <ClInclude Include="Enums\FormOfEducation.h" />
     <ClInclude Include="Enums\Genre.h" />
     <ClInclude Include="Enums\ManufacturerOfSmartphones.h" />
     <ClInclude Include="Enums\Season.h" />
     <ClInclude Include="OutputFunctions.h" />
     <ClInclude Include="SortException.h" />
-    <ClInclude Include="Structs\Circle.h" />
-    <ClInclude Include="Structs\Flight.h" />
-    <ClInclude Include="Structs\Movie.h" />
-    <ClInclude Include="Structs\PhoneContact.h" />
-    <ClInclude Include="Structs\Rectangle.h" />
-    <ClInclude Include="Structs\Song.h" />
-    <ClInclude Include="Structs\Subject.h" />
-    <ClInclude Include="Structs\Time.h" />
+    <ClInclude Include="StructsHeaders\Circle.h" />
+    <ClInclude Include="StructsHeaders\Flight.h" />
+    <ClInclude Include="StructsHeaders\Movie.h" />
+    <ClInclude Include="StructsHeaders\PhoneContact.h" />
+    <ClInclude Include="StructsHeaders\Rectangle.h" />
+    <ClInclude Include="StructsHeaders\Song.h" />
+    <ClInclude Include="StructsHeaders\Subject.h" />
+    <ClInclude Include="StructsHeaders\Time.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

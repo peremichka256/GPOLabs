@@ -3,18 +3,18 @@
 void PrintMainMenu()
 {
 	//TODO: правильнее в начале написать цифру, а потом что это за пункт меню. Иначе цифры в тексте скачут гребенкой, неудобно находить нужный пункт
-	cout << endl << "__________MENU__________" << endl
-		<< "To demonstrate exception in Sort(), press 1. " << endl
-		<< "To DemoRectangle(), press 2. " << endl
-		<< "To demonstrate FindRectangle() and FindMaxRectangle(), press 3. " << endl
-		<< "To DemoReadAndWriteRectangle(), press 4. " << endl
-		<< "To DemoDynamicFlight(), press 5. " << endl
-		<< "To DemoDynamicFlights(), press 6. " << endl
-		<< "To DemoCircle(), press 7. " << endl
-		<< "To demonstrate Make and Copy functions, press 8. " << endl
-		<< "To DemoEnums(), press 9. " << endl
-		<< "To DemoMovieWithGenre(), press 10. " << endl
-		<< "_________________________" << endl;
+	cout << endl << "____________________MENU____________________" << endl
+		<< "1. To demonstrate exception in Sort()" << endl
+		<< "2. To DemoRectangle(), press 2. " << endl
+		<< "3. To demonstrate FindRectangle() and FindMaxRectangle()" << endl
+		<< "4. To DemoReadAndWriteRectangle()" << endl
+		<< "5. To DemoDynamicFlight()" << endl
+		<< "6. To DemoDynamicFlights()" << endl
+		<< "7. To DemoCircle()" << endl
+		<< "8. To demonstrate Make and Copy functions" << endl
+		<< "9. To DemoEnums()" << endl
+		<< "10. To DemoMovieWithGenre()" << endl
+		<< "____________________________________________________" << endl;
 }
 
 void PrintExceptionCatched()

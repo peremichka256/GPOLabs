@@ -1,4 +1,4 @@
-#include "Movie.h"
+#include "../StructsHeaders/Movie.h"
 
 Movie* MakeMovie(string name, int length, int yearOfRelease, Genre genre, double rating)
 {

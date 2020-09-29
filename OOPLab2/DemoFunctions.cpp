@@ -21,7 +21,7 @@ void DemoRectangle()
 		<< userRectagle.Width << endl<<endl;
 
 	//2.2.3.3
-	Rectangle arrayOfRectangles[3];
+	Rectangle arrayOfRectangles[arrayOfRectanglesSize];
 	arrayOfRectangles[0].Color = "Red";
 	arrayOfRectangles[0].Length = 12.76;
 	arrayOfRectangles[0].Width = 76.6;
@@ -34,7 +34,7 @@ void DemoRectangle()
 	arrayOfRectangles[2].Length = 21.4;
 	arrayOfRectangles[2].Width = 31;
 
-	for (int i = 0; i < 3; i++)
+	for (int i = 0; i < arrayOfRectanglesSize; i++)
 	{
 		cout << "[" << i << "] "
 			<< arrayOfRectangles[i].Color << " rectangle have size: "
@@ -89,7 +89,7 @@ void DemoFlight()
 		<< userFlight.FlightTime << " minutes" << endl << endl;
 
 	//2.2.3.3
-	Flight arrayOfFlights[3];
+	Flight arrayOfFlights[arrayOfFlightsSize];
 
 	arrayOfFlights[0].FlightTime = 245;
 	arrayOfFlights[0].PointOfDeparture = "Krasnoyarsk";
@@ -103,7 +103,7 @@ void DemoFlight()
 	arrayOfFlights[2].PointOfDeparture = "Gavana";
 	arrayOfFlights[2].PointOfDestination = "Moscow";
 
-	for (int i = 0; i < 3; i++)
+	for (int i = 0; i < arrayOfFlightsSize; i++)
 	{
 		cout << "Flight " << i << ": "
 			<< arrayOfFlights[i].PointOfDeparture << " - "
@@ -158,7 +158,8 @@ void DemoMovie()
 
 	//2.2.3.3
 	//TODO: размер массива в переменную, использовать её
-	Movie arrayOfMovies[3];
+	//по заданию массив не динамический ещё, поэтому засунул размер в константу
+	Movie arrayOfMovies[arrayOfMoviesSize];
 	//arrayOfMovies[0].Genre = "Drama";
 	arrayOfMovies[0].Genre = Drama;
 	arrayOfMovies[0].Length = 126;
@@ -180,7 +181,7 @@ void DemoMovie()
 	arrayOfMovies[2].Rating = 2.1;
 	arrayOfMovies[2].YearOfRelease = 2004;
 
-	for (int i = 0; i < 3; i++)
+	for (int i = 0; i < arrayOfMoviesSize; i++)
 	{
 		cout << "Film \"" << arrayOfMovies[i].Name << "\" "
 			<< arrayOfMovies[i].YearOfRelease << "th year of release, in the genre "
@@ -228,7 +229,7 @@ void DemoTime()
 
 	//2.2.3.3
 	//TODO: см. выше
-	Time arrayOfTime[5];
+	Time arrayOfTime[arrayOfTimeSize];
 	arrayOfTime[0].Hour = 7;
 	arrayOfTime[0].Minute = 30;
 	arrayOfTime[0].Second = 43;
@@ -249,7 +250,7 @@ void DemoTime()
 	arrayOfTime[4].Minute = 23;
 	arrayOfTime[4].Second = 34;
 
-	for (int i = 0; i < 5; i++)
+	for (int i = 0; i < arrayOfTimeSize; i++)
 	{
 		cout << "Time №" << i << " "
 			<< arrayOfTime[i].Hour << ":"
@@ -307,14 +308,14 @@ void ReadRectangle(Rectangle& rectagle)
 void DemoReadAndWriteRectangle()
 {
 	//TODO: см.выше
-	Rectangle arrayOfReactangles[5];
+	Rectangle arrayOfReactangles[arrayOfRectanglesSize];
 
-	for (int i = 0; i < 5; i++)
+	for (int i = 0; i < arrayOfRectanglesSize; i++)
 	{
 		ReadRectangle(arrayOfReactangles[i]);
 	}
 
-	for (int i = 0; i < 5; i++)
+	for (int i = 0; i < arrayOfRectanglesSize; i++)
 	{
 		WriteRectangle(arrayOfReactangles[i]);
 	}

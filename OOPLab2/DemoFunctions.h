@@ -1,11 +1,16 @@
 #pragma once
-#include "./Structs/Rectangle.h"
-#include "./Structs/Flight.h"
-#include "./Structs/Movie.h"
-#include "./Structs/Time.h"
+#include "./StructsHeaders/Rectangle.h"
+#include "./StructsHeaders/Flight.h"
+#include "./StructsHeaders/Movie.h"
+#include "./StructsHeaders/Time.h"
 #include <iostream>
 
 using namespace std;
+
+const int arrayOfRectanglesSize = 3;
+const int arrayOfFlightsSize = 3;
+const int arrayOfMoviesSize = 3;
+const int arrayOfTimeSize = 5;
 
 void DemoRectangle();
 void WriteRectangle(Rectangle& rectangle);
