@@ -39,5 +39,4 @@ void Task_1154()
 		cout << doubleArray[i] << " ";
 	}
 	delete[] doubleArray;
-	doubleArray = nullptr;
 }

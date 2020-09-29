@@ -3,10 +3,10 @@
 void Task_1123()
 {
 	//TODO: размер массива вынести в константу, в объявлении массива и в циклах использовать константу
-	char array[8];
+	char array[ARRAY_SIZE_TASK1123];
 	cout << "Enter array of 8 chars" << endl;
 
-	for (int i = 0; i < 8; i++)
+	for (int i = 0; i < ARRAY_SIZE_TASK1123; i++)
 	{
 		cout << "a[" << i << "]: ";
 		cin >> array[i];
@@ -19,10 +19,10 @@ void Task_1123()
 	}
 	cout << endl << "All letters in your array:" << endl;
 
-	for (int i = 0; i < 8; i++)
+	for (int i = 0; i < ARRAY_SIZE_TASK1123; i++)
 	{
 		//TODO: что за магические числа? Заменить на соответствующие символы
-		if ((array[i] >= 97) && (array[i] <= 122))
+		if ((array[i] >= 'a') && (array[i] <= 'z'))
 		{
 			cout << array[i] << " ";
 		}

@@ -3,15 +3,15 @@
 void Task_1122()
 {
 	//TODO: размер массива вынести в константу, в объявлении массива и в циклах использовать константу
-	double array[12] = { 3.54, 7.9, 1.12, -5.53, 0.222, 2.43, 8.532, -8.87, 9.63, -3.42, 78.12, -90.0 };
+	double array[ARRAY_SIZE_TASK1122] = { 3.54, 7.9, 1.12, -5.53, 0.222, 2.43, 8.532, -8.87, 9.63, -3.42, 78.12, -90.0 };
 	cout << "Source array is:" << endl;
 
-	for (int i = 0; i < 12; i++)
+	for (int i = 0; i < ARRAY_SIZE_TASK1122 - 1; i++)
 	{
 		cout << array[i] << " ";
 	}
 
-	for (int i = 0; i < 11; i++)
+	for (int i = 0; i < ARRAY_SIZE_TASK1122 - 1; i++)
 	{
 		for (int j = 0; j < 11; j++)
 		{
@@ -28,7 +28,7 @@ void Task_1122()
 	cin >> searchingValue;
 	int largerValueCounter = 0;
 
-	for (int i = 0; i < 12; i++)
+	for (int i = 0; i < ARRAY_SIZE_TASK1122; i++)
 	{
 		if (array[i] >= searchingValue)
 		{

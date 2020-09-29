@@ -29,7 +29,6 @@ void Task_1158()
 
 	count = 20;
 	delete[] values;//необходимо удалить старый массив
-	values = nullptr;
 	values = ReadArray(count);
 	cout << "Count is: " << CountPositiveValues(values, count) << endl;
 

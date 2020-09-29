@@ -16,5 +16,4 @@ void Task_1151()
 		cout << testArray[i] << " ";
 	}
 	delete[] testArray;
-
 }

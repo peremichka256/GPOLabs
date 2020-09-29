@@ -3,7 +3,7 @@
 void Task_1121()
 {
 	//TODO: размер массива вынести в константу, в объявлении массива и в циклах использовать константу
-	int array[10] = { 3, 7, 1,-5,0,2,8,-8,9,-3 };
+	int array[ARRAY_SIZE_TASK1121] = { 3, 7, 1,-5,0,2,8,-8,9,-3 };
 	cout << "Source array is:" << endl;
 
 	for (int i = 0; i < 10; i++)
@@ -12,9 +12,9 @@ void Task_1121()
 	}
 	cout << endl;
 
-	for (int i = 0; i < 9; i++)
+	for (int i = 0; i < ARRAY_SIZE_TASK1121 - 1; i++)
 	{
-		for (int j = 0; j < 9; j++)
+		for (int j = 0; j < ARRAY_SIZE_TASK1121 - 1; j++)
 		{
 			if (array[j] > array[j + 1])
 			{
@@ -26,7 +26,7 @@ void Task_1121()
 	}
 	cout << "Sorted array is:" << endl;
 
-	for (int i = 0; i < 10; i++)
+	for (int i = 0; i < ARRAY_SIZE_TASK1121; i++)
 	{
 		cout << array[i] << " ";
 	}

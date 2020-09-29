@@ -46,7 +46,4 @@ void Task_1157()
 	delete[] firstArray;
 	delete[] secondArray;
 	delete[] thirdArray;
-	firstArray = nullptr;
-	secondArray = nullptr;
-	thirdArray = nullptr;
 }

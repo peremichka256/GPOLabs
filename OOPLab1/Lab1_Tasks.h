@@ -3,6 +3,10 @@
 
 using namespace std;
 
+const int ARRAY_SIZE_TASK1121 = 10;
+const int ARRAY_SIZE_TASK1122 = 12;
+const int ARRAY_SIZE_TASK1123 = 8;
+
 void Task_1111();
 void Task_1112();
 void Task_1121();

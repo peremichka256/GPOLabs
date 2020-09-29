@@ -19,5 +19,4 @@ void Task_1153()
 		cout << charArray[i] << " ";
 	}
 	delete[] charArray;
-	charArray = nullptr;
 }
