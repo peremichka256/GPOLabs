@@ -1,7 +1,7 @@
 #pragma once
-#include "Book.h"
-#include "Route.h"
-using namespace std;
+#include "./StructsHeaders/Book.h"
+#include "./StructsHeaders/Route.h"
+#include "./ClassesHeaders/Band.h"
 
 void PrintMainMenu();
 
@@ -10,3 +10,5 @@ void WriteBookToConsole(Book& book);
 
 void ReadRouteFromConsole(Route& route);
 void WriteRouteToConsole(Route& route);
+
+void PrintSong(Song& song);

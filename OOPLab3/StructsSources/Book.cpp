@@ -1,4 +1,4 @@
-#include "Book.h"
+#include "../StructsHeaders/Book.h"
 
 int FindBookByAuthor(Book* books, int booksCount, string author)
 {

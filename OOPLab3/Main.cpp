@@ -31,6 +31,21 @@ int main()
 				DemoRoute();
 				break;
 			}
+			case 3:
+			{
+				DemoRectangleWithPoint();
+				break;
+			}
+			case 4:
+			{
+				DemoFlightWithTime();
+				break;
+			}
+			case 5:
+			{
+				DemoBand();
+				break;
+			}
 		}
 	}
 }

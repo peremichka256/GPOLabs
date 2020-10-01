@@ -123,19 +123,34 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Book.cpp" />
+    <ClCompile Include="ClassesSources\Album.cpp" />
+    <ClCompile Include="ClassesSources\Band.cpp" />
+    <ClCompile Include="ClassesSources\Flight.cpp" />
+    <ClCompile Include="ClassesSources\Point.cpp" />
+    <ClCompile Include="ClassesSources\Rectangle.cpp" />
+    <ClCompile Include="ClassesSources\Song.cpp" />
+    <ClCompile Include="ClassesSources\Time.cpp" />
     <ClCompile Include="DemoClassFunctions.cpp" />
     <ClCompile Include="DemoStructsFunctions.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="InOutputFunctions.cpp" />
-    <ClCompile Include="Route.cpp" />
+    <ClCompile Include="StructsSources\Book.cpp" />
+    <ClCompile Include="StructsSources\Route.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Book.h" />
+    <ClInclude Include="ClassesHeaders\Album.h" />
+    <ClInclude Include="ClassesHeaders\Band.h" />
+    <ClInclude Include="ClassesHeaders\Flight.h" />
+    <ClInclude Include="ClassesHeaders\Point.h" />
+    <ClInclude Include="ClassesHeaders\Rectangle.h" />
+    <ClInclude Include="ClassesHeaders\Song.h" />
+    <ClInclude Include="ClassesHeaders\Time.h" />
     <ClInclude Include="DemoClassFunctions.h" />
     <ClInclude Include="DemoStructsFunctions.h" />
+    <ClInclude Include="Genre.h" />
     <ClInclude Include="InOutputFunctions.h" />
-    <ClInclude Include="Route.h" />
+    <ClInclude Include="StructsHeaders\Book.h" />
+    <ClInclude Include="StructsHeaders\Route.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

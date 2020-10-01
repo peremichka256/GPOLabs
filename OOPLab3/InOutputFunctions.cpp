@@ -2,11 +2,13 @@
 
 void PrintMainMenu()
 {
-	cout << "To DemoBook(), press 1\n"
-		<< "To DemoRoute(), press 2\n"
-		<< "To DemoRectang1e(), press 3\n"
-		<< "To DemoFlight(), press 4\n"
-		<< "To DemoBand(), press 5\n";
+	cout << endl
+		<< "0. To complete the work\n"
+		<< "1. To DemoBook()\n"
+		<< "2. To DemoRoute(), press 2\n"
+		<< "3. To DemoRectang1e(), press 3\n"
+		<< "4. To DemoFlight(), press 4\n"
+		<< "5. To DemoBand(), press 5\n";
 }
 
 void ReadBookFromConsole(Book& book)
@@ -219,4 +221,9 @@ void WriteRouteToConsole(Route& route)
 	{
 		cout << i << ". " << route.Stops[i] << endl;
 	}
+}
+
+void PrintSong(Song& song)
+{
+	cout << song.GetTitle() << "\" duration of the song " << song.GetDuration() << endl;
 }
