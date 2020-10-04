@@ -10,9 +10,9 @@ struct Book
 {
 	string Title;
 	int PublicationYear;
-	int PageCount;
-	string* Autors;
-	int AutorCount;
+	int PageCount; //TODO: грамошибка. мн. число
+	string* Autors; //TODO: грамошибка здесь и во всех соответствующих методах
+	int AutorCount;//TODO: грамошибка
 };
 
 int FindBookByAuthor(Book*, int, string);

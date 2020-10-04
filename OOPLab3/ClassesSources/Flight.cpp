@@ -36,6 +36,7 @@ void Flight::SetDepartureTime(Time* departureTime)
 
 void Flight::SetArrivalTime(Time* arrivalTime)
 {
+	//TODO: неправильно работает. Например, если дата прибытия будет 2021.01.01, а дата отлета 2020.12.31, то метод выкинет исключение. Исправляй, тестируй
 	if ((arrivalTime->GetYear() < this->_departureTime->GetYear())
 		|| (arrivalTime->GetMonth() < this->_departureTime->GetMonth())
 		|| (arrivalTime->GetDay() < this->_departureTime->GetDay())
