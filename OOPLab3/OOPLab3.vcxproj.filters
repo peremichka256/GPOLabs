@@ -39,31 +39,31 @@
     <ClCompile Include="DemoClassFunctions.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="ClassesSources\Flight.cpp">
-      <Filter>Исходные файлы\ClassesSources</Filter>
-    </ClCompile>
-    <ClCompile Include="ClassesSources\Point.cpp">
-      <Filter>Исходные файлы\ClassesSources</Filter>
-    </ClCompile>
-    <ClCompile Include="ClassesSources\Rectangle.cpp">
-      <Filter>Исходные файлы\ClassesSources</Filter>
-    </ClCompile>
-    <ClCompile Include="ClassesSources\Time.cpp">
-      <Filter>Исходные файлы\ClassesSources</Filter>
-    </ClCompile>
-    <ClCompile Include="StructsSources\Book.cpp">
+    <ClCompile Include="Book.cpp">
       <Filter>Исходные файлы\StructsSources</Filter>
     </ClCompile>
-    <ClCompile Include="StructsSources\Route.cpp">
+    <ClCompile Include="Route.cpp">
       <Filter>Исходные файлы\StructsSources</Filter>
     </ClCompile>
-    <ClCompile Include="ClassesSources\Song.cpp">
+    <ClCompile Include="Classes\Album.cpp">
       <Filter>Исходные файлы\ClassesSources</Filter>
     </ClCompile>
-    <ClCompile Include="ClassesSources\Album.cpp">
+    <ClCompile Include="Classes\Band.cpp">
       <Filter>Исходные файлы\ClassesSources</Filter>
     </ClCompile>
-    <ClCompile Include="ClassesSources\Band.cpp">
+    <ClCompile Include="Classes\Flight.cpp">
+      <Filter>Исходные файлы\ClassesSources</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Point.cpp">
+      <Filter>Исходные файлы\ClassesSources</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Rectangle.cpp">
+      <Filter>Исходные файлы\ClassesSources</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Song.cpp">
+      <Filter>Исходные файлы\ClassesSources</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Time.cpp">
       <Filter>Исходные файлы\ClassesSources</Filter>
     </ClCompile>
   </ItemGroup>
@@ -77,34 +77,34 @@
     <ClInclude Include="DemoClassFunctions.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="ClassesHeaders\Flight.h">
-      <Filter>Файлы заголовков\ClassesHeaders</Filter>
-    </ClInclude>
-    <ClInclude Include="ClassesHeaders\Point.h">
-      <Filter>Файлы заголовков\ClassesHeaders</Filter>
-    </ClInclude>
-    <ClInclude Include="ClassesHeaders\Rectangle.h">
-      <Filter>Файлы заголовков\ClassesHeaders</Filter>
-    </ClInclude>
-    <ClInclude Include="ClassesHeaders\Time.h">
-      <Filter>Файлы заголовков\ClassesHeaders</Filter>
-    </ClInclude>
     <ClInclude Include="Genre.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="StructsHeaders\Book.h">
+    <ClInclude Include="Book.h">
       <Filter>Файлы заголовков\StructsHeaders</Filter>
     </ClInclude>
-    <ClInclude Include="StructsHeaders\Route.h">
+    <ClInclude Include="Route.h">
       <Filter>Файлы заголовков\StructsHeaders</Filter>
     </ClInclude>
-    <ClInclude Include="ClassesHeaders\Song.h">
+    <ClInclude Include="Classes\Album.h">
       <Filter>Файлы заголовков\ClassesHeaders</Filter>
     </ClInclude>
-    <ClInclude Include="ClassesHeaders\Album.h">
+    <ClInclude Include="Classes\Band.h">
       <Filter>Файлы заголовков\ClassesHeaders</Filter>
     </ClInclude>
-    <ClInclude Include="ClassesHeaders\Band.h">
+    <ClInclude Include="Classes\Flight.h">
+      <Filter>Файлы заголовков\ClassesHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Point.h">
+      <Filter>Файлы заголовков\ClassesHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Rectangle.h">
+      <Filter>Файлы заголовков\ClassesHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Song.h">
+      <Filter>Файлы заголовков\ClassesHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Time.h">
       <Filter>Файлы заголовков\ClassesHeaders</Filter>
     </ClInclude>
   </ItemGroup>

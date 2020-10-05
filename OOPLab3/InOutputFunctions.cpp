@@ -70,7 +70,7 @@ void ReadBookFromConsole(Book& book)
 			int autorsCount;
 			cout << "Enter number of autors:\n";
 			cin >> autorsCount;
-			SetAutorCount(book, autorsCount);
+			SetAuthorsCount(book, autorsCount);
 			isSetAutorCounter = true;
 		}
 		catch (exception)
@@ -82,31 +82,31 @@ void ReadBookFromConsole(Book& book)
 		}
 	}
 
-	string* autors = new string[book.AutorCount];
+	string* autors = new string[book.AuthorsCount];
 
 	cin.ignore(1);
 
-	for (int i = 0; i < book.AutorCount; i++)
+	for (int i = 0; i < book.AuthorsCount; i++)
 	{
 		cout << "Enter autor #" << i << "\n";
 		getline(cin, autors[i]);
 	}
-	SetAutors(book, autors);
+	SetAuthors(book, autors);
 
 	Book* newBook = &book;
 }
 
 void WriteBookToConsole(Book& book)
 {
-	for (int i = 0; i < (book.AutorCount - 1); i++)
+	for (int i = 0; i < (book.AuthorsCount - 1); i++)
 	{
-		cout << book.Autors[i] << ", ";
+		cout << book.Authors[i] << ", ";
 	}
-	cout << book.Autors[book.AutorCount - 1] << ". ";
+	cout << book.Authors[book.AuthorsCount - 1] << ". ";
 
 	cout << book.Title << ". "
 		<< book.PublicationYear << ". - "
-		<< book.PageCount << "ñ.\n";
+		<< book.PagesCount << "ñ.\n";
 
 }
 

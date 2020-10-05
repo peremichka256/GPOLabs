@@ -1,4 +1,4 @@
-#include "../StructsHeaders/Route.h"
+#include "Route.h"
 
 int FindRouteByStop(Route* route, int routesCounter, string stop)
 {

@@ -1,4 +1,4 @@
-#include "../ClassesHeaders/Band.h"
+#include "Band.h"
 
 Band::Band(string title, string descriprion, Album* albums, int albumsCount)
 {
@@ -22,7 +22,8 @@ void Band::SetAlbums(Album* albums, int albumsCount)
 	if (albumsCount < 0)
 	{
 		//TODO: проверить и исправить все сообщения в исключениях
-		throw exception("SetAlbums() albumsCount error");
+		throw exception
+		("albumsCount should be positive");
 	}
 
 	this->_albums = albums;

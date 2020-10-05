@@ -1,4 +1,4 @@
-#include "../ClassesHeaders/Flight.h"
+#include "Flight.h"
 
 Flight::Flight()
 {
@@ -38,21 +38,25 @@ void Flight::SetArrivalTime(Time* arrivalTime)
 {
 	//TODO: неправильно работает. Например, если дата прибытия будет 2021.01.01, а дата отлета 2020.12.31, то метод выкинет исключение. Исправляй, тестируй
 	if ((arrivalTime->GetYear() < this->_departureTime->GetYear())
-		|| (arrivalTime->GetMonth() < this->_departureTime->GetMonth())
-		|| (arrivalTime->GetDay() < this->_departureTime->GetDay())
+		|| ((arrivalTime->GetYear() == this->_departureTime->GetYear())
+			&&(arrivalTime->GetMonth() < this->_departureTime->GetMonth()))
+		|| ((arrivalTime->GetMonth() == this->_departureTime->GetMonth())
+			&&(arrivalTime->GetDay() < this->_departureTime->GetDay()))
 		|| ((arrivalTime->GetDay() == this->_departureTime->GetDay())
 			&& (arrivalTime->GetHour() < this->_departureTime->GetHour()))
 		|| ((arrivalTime->GetHour() == this->_departureTime->GetHour())
 			&& (arrivalTime->GetMinute() < this->_departureTime->GetMinute())))
 	{
-		throw exception("arrivalTime Error");
+		throw exception("arrivalTime should be at least departureTime");
 	}
 	this->_arrivalTime = arrivalTime;
 }
 
 int Flight::GetFlightTimeMinutes()
 {
-	if (this->GetArrivalTime()->GetDay() > this->GetDepartureTime()->GetDay())
+	if ((this->GetArrivalTime()->GetYear() > this->GetDepartureTime()->GetYear())
+		|| (this->GetArrivalTime()->GetMonth() > this->GetDepartureTime()->GetMonth())
+		||(this->GetArrivalTime()->GetDay() > this->GetDepartureTime()->GetDay()))
 	{
 		int hoursWithoutMinutes = this->GetArrivalTime()->GetHour()
 			- this->GetDepartureTime()->GetHour();

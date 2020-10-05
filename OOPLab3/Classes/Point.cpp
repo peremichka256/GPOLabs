@@ -1,4 +1,4 @@
-#include "../ClassesHeaders/Point.h"
+#include "Point.h"
 
 void Point::SetX(double x)
 {

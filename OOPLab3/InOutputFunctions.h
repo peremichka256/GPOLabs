@@ -1,7 +1,7 @@
 #pragma once
-#include "./StructsHeaders/Book.h"
-#include "./StructsHeaders/Route.h"
-#include "./ClassesHeaders/Band.h"
+#include "Book.h"
+#include "Route.h"
+#include "./Classes/Band.h"
 
 void PrintMainMenu();
 

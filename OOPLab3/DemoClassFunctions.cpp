@@ -36,9 +36,9 @@ void DemoFlightWithTime()
 {
 	Flight* flights = new Flight [FLIGHTS_ARRAY_SIZE];
 	flights[0] = Flight("J156", "Moscow", "Tomsk",
-		&Time(2015, 1, 28, 12, 10), &Time(2015, 1, 28, 16, 50));
+		&Time(2014, 12, 30, 23, 55), &Time(2015, 1, 1, 4, 50));
 	flights[1] = Flight("S017", "Tokyo", "Shanghai",
-		&Time(2016, 3, 2, 2, 0), &Time(2016, 3, 2, 5, 20));
+		&Time(2016, 2, 30, 21, 0), &Time(2016, 3, 1, 5, 20));
 	flights[2] = Flight("K98", "Paris", "Rome",
 		&Time(2018, 11, 13, 22, 50), &Time(2018, 11, 14, 01, 10));
 	flights[3] = Flight("L02", "New York", "Hague",

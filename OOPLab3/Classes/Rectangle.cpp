@@ -1,4 +1,4 @@
-#include "../ClassesHeaders/Rectangle.h"
+#include "Rectangle.h"
 
 Rectangle::Rectangle()
 {
@@ -15,7 +15,7 @@ void Rectangle::SetLength(double length)
 {
 	if (length < 0)
 	{
-		throw exception("SetLength error");
+		throw exception("length of rectangle should be positive");
 	}
 	this->_length = length;
 }
@@ -24,7 +24,7 @@ void Rectangle::SetWidth(double width)
 {
 	if (width < 0)
 	{
-		throw exception("SetWidth error");
+		throw exception("width of rectangle should be positive");
 	}
 	this->_width = width;
 }

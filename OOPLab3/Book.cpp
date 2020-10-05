@@ -1,12 +1,12 @@
-#include "../StructsHeaders/Book.h"
+#include "Book.h"
 
 int FindBookByAuthor(Book* books, int booksCount, string author)
 {
 	for (int i = 0; i < booksCount; i++)
 	{
-		for (int j = 0; j < books[i].AutorCount; j++)
+		for (int j = 0; j < books[i].AuthorsCount; j++)
 		{
-			if (books[i].Autors[j] == author)
+			if (books[i].Authors[j] == author)
 			{
 				return i;
 			}
@@ -38,19 +38,19 @@ void SetPages(Book& book, int pageNumber)
 	{
 		throw exception("pages Error");
 	}
-	book.PageCount = pageNumber;
+	book.PagesCount = pageNumber;
 }
 
-void SetAutors(Book& book, string* autors)
+void SetAuthors(Book& book, string* autors)
 {
-	book.Autors = autors;
+	book.Authors = autors;
 }
 
-void SetAutorCount(Book& book, int autorCounter)
+void SetAuthorsCount(Book& book, int autorCounter)
 {
 	if ((autorCounter < 1) && (autorCounter > 10))
 	{
 		throw exception("autorCounter Error");
 	}
-	book.AutorCount = autorCounter;
+	book.AuthorsCount = autorCounter;
 }

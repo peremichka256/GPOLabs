@@ -33,7 +33,7 @@ void DemoBook()
 
 	for (int i = 0; i < BOOK_ARRAY_SIZE; i++)
 	{
-		delete[] books[i].Autors;
+		delete[] books[i].Authors;
 	}
 
 	delete[] books;

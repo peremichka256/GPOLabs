@@ -1,4 +1,4 @@
-#include "../ClassesHeaders/Song.h"
+#include "Song.h"
 
 Song::Song()
 {
@@ -20,7 +20,7 @@ void Song::SetDuration(int duration)
 {
 	if (duration < 0)
 	{
-		throw exception("SetDeration() error");
+		throw exception("duration of the song should be positive");
 	}
 
 	this->_duration = duration;
