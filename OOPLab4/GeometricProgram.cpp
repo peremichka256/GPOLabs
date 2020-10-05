@@ -3,11 +3,11 @@
 void GeometricProgram::DemoRing()
 {
 	Ring firstRing{ 3.6, 6.2, &Point(6.4,1) };
-	cout << "1 ring area = " << firstRing.GetArea() << endl;
+	cout << "Ring #" << firstRing.GetAllRingsCount() << " area = " << firstRing.GetArea() << endl;
 	Ring secondRing{ 1.6, 15, &Point(-6.4,1) };
-	cout << "2 ring area = " << secondRing.GetArea() << endl;
+	cout << "Ring #" << secondRing.GetAllRingsCount() << " area = " << secondRing.GetArea() << endl;
 	Ring thirdRing{ 4.4, 7.7, &Point(6.4,-1) };
-	cout << "3 ring area = " << thirdRing.GetArea() << endl;
+	cout << "Ring #" << thirdRing.GetAllRingsCount() << " area = " << thirdRing.GetArea() << endl;
 
 	try
 	{
@@ -33,7 +33,8 @@ void GeometricProgram::DemoRing()
 	cout << "Rings count after constructor call: " << Ring::GetAllRingsCount()
 		<< endl;
 	delete ring;
-	cout << "Rings count after distructor call: " << Ring::GetAllRingsCount()		<< endl;
+	cout << "Rings count after distructor call: " << Ring::GetAllRingsCount()
+		<< endl;
 }
 
 void GeometricProgram::DemoCollision()

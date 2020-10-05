@@ -13,6 +13,7 @@ private:
 public:
 	Point();
 	Point(double x, double y);
+
 	double GetX();
 	double GetY();
 };

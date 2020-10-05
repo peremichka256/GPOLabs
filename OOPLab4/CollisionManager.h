@@ -5,6 +5,6 @@
 static class CollisionManager
 {
 public:
-	static bool IsCollision(Rectangle&, Rectangle&);
-	static bool IsCollision(Ring&, Ring&);
+	static bool IsCollision(Rectangle& firstRectangle, Rectangle& secondRectangle);
+	static bool IsCollision(Ring& firstRing, Ring& secondRing);
 };

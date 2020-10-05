@@ -28,7 +28,7 @@ void DoubleValidator::AssertPositiveValue(double value)
 {
 	if (IsValuePositive(value) != true)
 	{
-		throw exception("Error");
+		throw exception("value non positive");
 	}
 }
 
@@ -36,6 +36,6 @@ void DoubleValidator::AssertValueInRange(double value, double min, double max)
 {
 	if (IsValueInRange(value, min, max) != true)
 	{
-		throw exception("Error");
+		throw exception("value non in range");
 	}
 }
