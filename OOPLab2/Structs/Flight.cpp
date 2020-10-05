@@ -1,4 +1,4 @@
-#include "../StructsHeaders/Flight.h"
+#include "Flight.h"
 
 Flight* MakeFlight(string pointOfDeparture, string pointOfDestination, int flightTime)
 {

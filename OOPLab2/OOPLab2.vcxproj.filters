@@ -42,19 +42,19 @@
     <ClCompile Include="DemoEnumsFunctions.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="StructsSources\Circle.cpp">
+    <ClCompile Include="Structs\Circle.cpp">
       <Filter>Исходные файлы\StructsSources</Filter>
     </ClCompile>
-    <ClCompile Include="StructsSources\Flight.cpp">
+    <ClCompile Include="Structs\Flight.cpp">
       <Filter>Исходные файлы\StructsSources</Filter>
     </ClCompile>
-    <ClCompile Include="StructsSources\Movie.cpp">
+    <ClCompile Include="Structs\Movie.cpp">
       <Filter>Исходные файлы\StructsSources</Filter>
     </ClCompile>
-    <ClCompile Include="StructsSources\Rectangle.cpp">
+    <ClCompile Include="Structs\Rectangle.cpp">
       <Filter>Исходные файлы\StructsSources</Filter>
     </ClCompile>
-    <ClCompile Include="StructsSources\Time.cpp">
+    <ClCompile Include="Structs\Time.cpp">
       <Filter>Исходные файлы\StructsSources</Filter>
     </ClCompile>
   </ItemGroup>
@@ -92,28 +92,28 @@
     <ClInclude Include="Enums\FormOfEducation.h">
       <Filter>Файлы заголовков\Enums</Filter>
     </ClInclude>
-    <ClInclude Include="StructsHeaders\Circle.h">
+    <ClInclude Include="Structs\Circle.h">
       <Filter>Файлы заголовков\StructsHeaders</Filter>
     </ClInclude>
-    <ClInclude Include="StructsHeaders\Flight.h">
+    <ClInclude Include="Structs\Flight.h">
       <Filter>Файлы заголовков\StructsHeaders</Filter>
     </ClInclude>
-    <ClInclude Include="StructsHeaders\Movie.h">
+    <ClInclude Include="Structs\Movie.h">
       <Filter>Файлы заголовков\StructsHeaders</Filter>
     </ClInclude>
-    <ClInclude Include="StructsHeaders\PhoneContact.h">
+    <ClInclude Include="Structs\PhoneContact.h">
       <Filter>Файлы заголовков\StructsHeaders</Filter>
     </ClInclude>
-    <ClInclude Include="StructsHeaders\Rectangle.h">
+    <ClInclude Include="Structs\Rectangle.h">
       <Filter>Файлы заголовков\StructsHeaders</Filter>
     </ClInclude>
-    <ClInclude Include="StructsHeaders\Song.h">
+    <ClInclude Include="Structs\Song.h">
       <Filter>Файлы заголовков\StructsHeaders</Filter>
     </ClInclude>
-    <ClInclude Include="StructsHeaders\Subject.h">
+    <ClInclude Include="Structs\Subject.h">
       <Filter>Файлы заголовков\StructsHeaders</Filter>
     </ClInclude>
-    <ClInclude Include="StructsHeaders\Time.h">
+    <ClInclude Include="Structs\Time.h">
       <Filter>Файлы заголовков\StructsHeaders</Filter>
     </ClInclude>
   </ItemGroup>

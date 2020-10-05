@@ -1,8 +1,8 @@
 #pragma once
-#include "./StructsHeaders/Rectangle.h"
-#include "./StructsHeaders/Flight.h"
-#include "./StructsHeaders/Movie.h"
-#include "./StructsHeaders/Time.h"
+#include "Structs/Rectangle.h"
+#include "Structs/Flight.h"
+#include "Structs/Movie.h"
+#include "Structs/Time.h"
 #include <iostream>
 
 using namespace std;
