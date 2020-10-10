@@ -13,12 +13,6 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Исходные файлы\ClassesSources">
-      <UniqueIdentifier>{2e7bb237-d6e5-4985-b783-92807f541462}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Файлы заголовков\ClassesHeaders">
-      <UniqueIdentifier>{35b34cf9-fe70-431f-aef5-95172a374498}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -27,46 +21,46 @@
     <ClCompile Include="OutputFunctions.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="CollisionManager.cpp">
-      <Filter>Исходные файлы\ClassesSources</Filter>
-    </ClCompile>
-    <ClCompile Include="DoubleValidator.cpp">
-      <Filter>Исходные файлы\ClassesSources</Filter>
-    </ClCompile>
-    <ClCompile Include="GeometricProgram.cpp">
-      <Filter>Исходные файлы\ClassesSources</Filter>
-    </ClCompile>
-    <ClCompile Include="Point.cpp">
-      <Filter>Исходные файлы\ClassesSources</Filter>
+    <ClCompile Include="Ring.cpp">
+      <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="Rectangle.cpp">
-      <Filter>Исходные файлы\ClassesSources</Filter>
+      <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Ring.cpp">
-      <Filter>Исходные файлы\ClassesSources</Filter>
+    <ClCompile Include="Point.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometricProgram.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="DoubleValidator.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="OutputFunctions.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="CollisionManager.h">
-      <Filter>Файлы заголовков\ClassesHeaders</Filter>
-    </ClInclude>
-    <ClInclude Include="DoubleValidator.h">
-      <Filter>Файлы заголовков\ClassesHeaders</Filter>
-    </ClInclude>
-    <ClInclude Include="GeometricProgram.h">
-      <Filter>Файлы заголовков\ClassesHeaders</Filter>
-    </ClInclude>
-    <ClInclude Include="Point.h">
-      <Filter>Файлы заголовков\ClassesHeaders</Filter>
+    <ClInclude Include="Ring.h">
+      <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="Rectangle.h">
-      <Filter>Файлы заголовков\ClassesHeaders</Filter>
+      <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="Ring.h">
-      <Filter>Файлы заголовков\ClassesHeaders</Filter>
+    <ClInclude Include="Point.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometricProgram.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="DoubleValidator.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -60,7 +60,7 @@ void GeometricProgram::DemoCollision()
 
 	if (CollisionManager::IsCollision(collisionRing1, collisionRing2))
 	{
-		cout << "Rings intersect(they should))\n";
+		cout << "Rings intersect(they should)\n";
 	}
 
 	Ring ring1 = Ring(1.1, 2, &Point(0, 0));

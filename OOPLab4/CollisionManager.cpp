@@ -16,7 +16,7 @@ bool CollisionManager::IsCollision(Rectangle& firstRectangle, Rectangle& secondR
 	double difCoordinatesY = abs(firstRectangle.GetCenter()->GetY()
 		- secondRectangle.GetCenter()->GetY());
 	//TODO: грамошибка
-	double sumWedth = firstRectangle.GetWidth() / 2
+	double sumWidth = firstRectangle.GetWidth() / 2
 		+ secondRectangle.GetWidth() / 2;
 
 	bool isCollisionByYAxis = false;
@@ -27,14 +27,7 @@ bool CollisionManager::IsCollision(Rectangle& firstRectangle, Rectangle& secondR
 	}
 
 	//TODO:булева слепота
-	if ((isCollisionByYAxis || isCollisionByXAxis) == false)
-	{
-		return false;
-	}
-	else
-	{
-		return true;
-	}
+	return isCollisionByYAxis || isCollisionByXAxis;
 }
 
 bool CollisionManager::IsCollision(Ring& firstRing, Ring& secondRing)
@@ -51,12 +44,5 @@ bool CollisionManager::IsCollision(Ring& firstRing, Ring& secondRing)
 	double sumRadii = firstRing.GetExternalRadius()
 		+ secondRing.GetExternalRadius();
 	//TODO: булева слепота
-	if (distanceBetweenCentres < sumRadii)
-	{
-		return true;
-	}
-	else
-	{
-		return false;
-	}
+	return distanceBetweenCentres < sumRadii;
 }

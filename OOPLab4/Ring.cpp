@@ -13,7 +13,7 @@ void Ring::SetRadii(double internalRadius, double externalRadius)
 	DoubleValidator::AssertPositiveValue(externalRadius);
 
 	DoubleValidator::AssertValueInRange(internalRadius,
-		MIN_RADUIS_VALUE, externalRadius);
+		MIN_RADIUS_VALUE, externalRadius);
 
 	this->_internalRadius = internalRadius;
 	this->_externalRadius = externalRadius;
@@ -47,8 +47,8 @@ Point* Ring::GetCenter()
 double Ring::GetArea()
 {
 	double area;
-	area = GetExternalRadius() * GetExternalRadius() * PI
-		- GetInternalRadius() * GetInternalRadius() * PI;
+	area = GetExternalRadius() * GetExternalRadius() * M_PI
+		- GetInternalRadius() * GetInternalRadius() * M_PI;
 	return area;
 }
 
