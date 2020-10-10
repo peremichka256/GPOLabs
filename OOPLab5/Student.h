@@ -10,6 +10,7 @@ private:
 
 	void SetId(int id);
 	static int MakeNewId();
+
 public:
 	Student(string firstName, string lastName,
 		string patronymic, int yearOfEntry);
