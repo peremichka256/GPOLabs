@@ -1,10 +1,10 @@
 #pragma once
-#include "Enums/Color.h"
-#include "Enums/DayOfWeek.h"
-#include "Enums/FormOfEducation.h"
-#include "Enums/Genre.h"
-#include "Enums/ManufacturerOfSmartphones.h"
-#include "Enums/Season.h"
+#include "Color.h"
+#include "DayOfWeek.h"
+#include "FormOfEducation.h"
+#include "Genre.h"
+#include "ManufacturerOfSmartphones.h"
+#include "Season.h"
 #include <iostream>
 #include "DemoFunctions.h"
 #include "DemoDynamicFunctions.h"

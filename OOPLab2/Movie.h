@@ -1,6 +1,6 @@
 #pragma once
 #include <string>
-#include "../Enums/Genre.h"
+#include "Genre.h"
 
 using namespace std;
 
