@@ -1,7 +1,7 @@
 #pragma once
 #include "Book.h"
 #include "Route.h"
-#include "./Classes/Band.h"
+#include "Band.h"
 
 void PrintMainMenu();
 

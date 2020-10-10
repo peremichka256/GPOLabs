@@ -123,34 +123,34 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Album.cpp" />
+    <ClCompile Include="Band.cpp" />
     <ClCompile Include="Book.cpp" />
-    <ClCompile Include="Classes\Album.cpp" />
-    <ClCompile Include="Classes\Band.cpp" />
-    <ClCompile Include="Classes\Flight.cpp" />
-    <ClCompile Include="Classes\Point.cpp" />
-    <ClCompile Include="Classes\Rectangle.cpp" />
-    <ClCompile Include="Classes\Song.cpp" />
-    <ClCompile Include="Classes\Time.cpp" />
     <ClCompile Include="DemoClassFunctions.cpp" />
     <ClCompile Include="DemoStructsFunctions.cpp" />
+    <ClCompile Include="Flight.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="InOutputFunctions.cpp" />
+    <ClCompile Include="Point.cpp" />
+    <ClCompile Include="Rectangle.cpp" />
     <ClCompile Include="Route.cpp" />
+    <ClCompile Include="Song.cpp" />
+    <ClCompile Include="Time.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Album.h" />
+    <ClInclude Include="Band.h" />
     <ClInclude Include="Book.h" />
-    <ClInclude Include="Classes\Album.h" />
-    <ClInclude Include="Classes\Band.h" />
-    <ClInclude Include="Classes\Flight.h" />
-    <ClInclude Include="Classes\Point.h" />
-    <ClInclude Include="Classes\Rectangle.h" />
-    <ClInclude Include="Classes\Song.h" />
-    <ClInclude Include="Classes\Time.h" />
     <ClInclude Include="DemoClassFunctions.h" />
     <ClInclude Include="DemoStructsFunctions.h" />
+    <ClInclude Include="Flight.h" />
     <ClInclude Include="Genre.h" />
     <ClInclude Include="InOutputFunctions.h" />
+    <ClInclude Include="Point.h" />
+    <ClInclude Include="Rectangle.h" />
     <ClInclude Include="Route.h" />
+    <ClInclude Include="Song.h" />
+    <ClInclude Include="Time.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

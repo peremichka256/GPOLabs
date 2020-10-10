@@ -1,7 +1,7 @@
 #pragma once
-#include "Classes/Flight.h"
-#include "Classes/Rectangle.h"
-#include "Classes/Band.h"
+#include "Flight.h"
+#include "Rectangle.h"
+#include "Band.h"
 #include "InOutputFunctions.h"
 #include <iostream>
 

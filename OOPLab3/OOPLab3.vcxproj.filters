@@ -13,18 +13,6 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Исходные файлы\ClassesSources">
-      <UniqueIdentifier>{fa34a13f-c5bc-457b-b7f7-367598f2f9d4}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Файлы заголовков\ClassesHeaders">
-      <UniqueIdentifier>{300b1cd6-c2fb-4beb-9d4d-614d5f267e02}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Файлы заголовков\StructsHeaders">
-      <UniqueIdentifier>{44904437-d1d9-4952-b505-06829958eb42}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Исходные файлы\StructsSources">
-      <UniqueIdentifier>{98135f93-8557-45a4-bfe9-43e3289ee41b}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -39,32 +27,32 @@
     <ClCompile Include="DemoClassFunctions.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Book.cpp">
-      <Filter>Исходные файлы\StructsSources</Filter>
-    </ClCompile>
     <ClCompile Include="Route.cpp">
-      <Filter>Исходные файлы\StructsSources</Filter>
+      <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Classes\Album.cpp">
-      <Filter>Исходные файлы\ClassesSources</Filter>
+    <ClCompile Include="Book.cpp">
+      <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Classes\Band.cpp">
-      <Filter>Исходные файлы\ClassesSources</Filter>
+    <ClCompile Include="Album.cpp">
+      <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Classes\Flight.cpp">
-      <Filter>Исходные файлы\ClassesSources</Filter>
+    <ClCompile Include="Band.cpp">
+      <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Classes\Point.cpp">
-      <Filter>Исходные файлы\ClassesSources</Filter>
+    <ClCompile Include="Flight.cpp">
+      <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Classes\Rectangle.cpp">
-      <Filter>Исходные файлы\ClassesSources</Filter>
+    <ClCompile Include="Point.cpp">
+      <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Classes\Song.cpp">
-      <Filter>Исходные файлы\ClassesSources</Filter>
+    <ClCompile Include="Rectangle.cpp">
+      <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Classes\Time.cpp">
-      <Filter>Исходные файлы\ClassesSources</Filter>
+    <ClCompile Include="Song.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -81,31 +69,31 @@
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="Book.h">
-      <Filter>Файлы заголовков\StructsHeaders</Filter>
+      <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="Route.h">
-      <Filter>Файлы заголовков\StructsHeaders</Filter>
+      <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="Classes\Album.h">
-      <Filter>Файлы заголовков\ClassesHeaders</Filter>
+    <ClInclude Include="Album.h">
+      <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="Classes\Band.h">
-      <Filter>Файлы заголовков\ClassesHeaders</Filter>
+    <ClInclude Include="Band.h">
+      <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="Classes\Flight.h">
-      <Filter>Файлы заголовков\ClassesHeaders</Filter>
+    <ClInclude Include="Flight.h">
+      <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="Classes\Point.h">
-      <Filter>Файлы заголовков\ClassesHeaders</Filter>
+    <ClInclude Include="Point.h">
+      <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="Classes\Rectangle.h">
-      <Filter>Файлы заголовков\ClassesHeaders</Filter>
+    <ClInclude Include="Rectangle.h">
+      <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="Classes\Song.h">
-      <Filter>Файлы заголовков\ClassesHeaders</Filter>
+    <ClInclude Include="Song.h">
+      <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="Classes\Time.h">
-      <Filter>Файлы заголовков\ClassesHeaders</Filter>
+    <ClInclude Include="Time.h">
+      <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

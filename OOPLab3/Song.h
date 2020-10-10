@@ -2,7 +2,7 @@
 #include <iostream>
 #include <string>
 #include <exception>
-#include "../Genre.h"
+#include "Genre.h"
 using namespace std;
 
 class Song
