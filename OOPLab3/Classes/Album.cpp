@@ -16,7 +16,6 @@ void Album::SetCompositionYear(int compositionYear)
 {
 	if ((compositionYear > CURRENT_YEAR) && (compositionYear < 0))
 	{
-		//TODO: неинформативное сообщение. Разработчик и так увидит, в каком методе ошибка. Надо описать, в чем суть ошибки. В данном случае, надо написать какое значение ожидалось, и какое было получено
 		throw exception
 		("compositYear shold be positive and less that current year");
 	}
@@ -28,7 +27,6 @@ void Album::SetSongs(Song* songs, int songsCount)
 {
 	if (songsCount < 0)
 	{
-		//TODO: см. выше
 		throw exception("songsCount should be positive");
 	}
 

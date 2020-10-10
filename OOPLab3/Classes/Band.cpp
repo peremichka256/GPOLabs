@@ -21,7 +21,6 @@ void Band::SetAlbums(Album* albums, int albumsCount)
 {
 	if (albumsCount < 0)
 	{
-		//TODO: проверить и исправить все сообщения в исключениях
 		throw exception
 		("albumsCount should be positive");
 	}
