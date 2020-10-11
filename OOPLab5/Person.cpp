@@ -9,32 +9,32 @@ Person::Person(string firstName, string lastName, string patronymic)
 
 void Person::SetFirstName(string firstName)
 {
-	this->_firstName = firstName;
+	_firstName = firstName;
 }
 
 void Person::SetLastName(string lastName)
 {
-	this->_lastName = lastName;
+	_lastName = lastName;
 }
 
 void Person::SetPatronymic(string patronymic)
 {
-	this->_patronymic = patronymic;
+	_patronymic = patronymic;
 }
 
 string Person::GetFirstName()
 {
-	return this->_firstName;
+	return _firstName;
 }
 
 string Person::GetLastName()
 {
-	return this->_lastName;
+	return _lastName;
 }
 
 string Person::GetPatronymic()
 {
-	return this->_patronymic;
+	return _patronymic;
 }
 
 void ShowName(Person* person)

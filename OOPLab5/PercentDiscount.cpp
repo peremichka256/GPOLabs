@@ -2,12 +2,12 @@
 
 int PercentDiscount::GetPercent()
 {
-	return this->_percent;
+	return _percent;
 }
 
 void PercentDiscount::SetPercent(int percent)
 {
-	if ((percent < 0) && (percent > 100))
+	if ((percent < 0) || (percent > 100))
 	{
 		throw exception("percent set between 0 and 100");
 	}

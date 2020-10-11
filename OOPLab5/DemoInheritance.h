@@ -6,6 +6,7 @@
 #include "PercentDiscount.h"
 
 const int USERS_COUNT = 8;
+const int PRODUCTS_COUNT = 3;
 
 class DemoInheritance
 {

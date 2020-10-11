@@ -9,27 +9,27 @@ Product::Product(string name, CategoryType category, int cost)
 
 string Product::GetName()
 {
-	return this->_name;
+	return _name;
 }
 
 CategoryType Product::GetCategory()
 {
-	return this->_category;
+	return _category;
 }
 
 int Product::GetCost()
 {
-	return this->_cost;
+	return _cost;
 }
 
 void Product::SetName(string name)
 {
-	this->_name = name;
+	_name = name;
 }
 
 void Product::SetCategory(CategoryType category)
 {
-	this->_category = category;
+	_category = category;
 }
 
 void Product::SetCost(int cost)
@@ -38,5 +38,5 @@ void Product::SetCost(int cost)
 	{
 		throw exception("cost should be positive and not more than 100000");
 	}
-	this->_cost = cost;
+	_cost = cost;
 }

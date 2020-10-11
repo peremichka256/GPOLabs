@@ -18,6 +18,7 @@ void User::SetLogin(string login)
 	{
 		throw std::exception("Wrong symbols in login");
 	}
+
 	_login = login;
 }
 

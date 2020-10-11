@@ -7,10 +7,10 @@ private:
 	double _amount;
 
 public:
+	CertificateDiscount(CategoryType category, double amount);
+
 	void SetAmount(double amount);
 	double GetAmount();
-
-	CertificateDiscount(CategoryType category, double amount);
 
 	double Calculate(Product* product);
 };

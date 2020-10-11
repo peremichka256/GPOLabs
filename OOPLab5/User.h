@@ -20,7 +20,6 @@ public:
 	string GetPassword();
 	
 	bool IsCorrectPassword(string password);
-
 };
 
 User* Login(User** users, int usersCount, string enteredLogin,

@@ -19,7 +19,8 @@ void PaidUser::SetPosts(Post* posts, int postsCount)
 	}
 
 	_posts = posts;
-	_postsCount = postsCount;
+	_postsCount = postsCount;
+
 }
 
 Post* PaidUser::GetPosts()

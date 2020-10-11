@@ -2,7 +2,7 @@
 
 void Student::SetId(int id)
 {
-	this->_id = id;
+	_id = id;
 }
 
 int Student::MakeNewId()
@@ -25,7 +25,7 @@ void Student::SetYearOfEntry(int yearOfEntry)
 		throw exception("year of the entry shold be positive");
 
 	}
-	this->_yearOfEntry = yearOfEntry;
+	_yearOfEntry = yearOfEntry;
 }
 
 int Student::GetYearOfEntry()

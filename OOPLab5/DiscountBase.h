@@ -7,6 +7,7 @@ class DiscountBase
 {
 private:
 	CategoryType _category;
+
 	void SetCategory(CategoryType category);
 
 public:

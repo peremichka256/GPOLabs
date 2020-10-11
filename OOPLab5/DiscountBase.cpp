@@ -7,7 +7,7 @@ void DiscountBase::SetCategory(CategoryType category)
 
 CategoryType DiscountBase::GetCategory()
 {
-	return this->_category;
+	return _category;
 }
 
 DiscountBase::DiscountBase(CategoryType category)
@@ -27,5 +27,6 @@ void ShowCheckWithDiscount(DiscountBase* discount, Product* products, int produc
 		fullCost += newProductCost;
 		cout << "New cost: " << newProductCost << endl;
 	}
+
 	cout << "Full cost with discount: " << fullCost << endl;
 }

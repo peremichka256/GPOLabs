@@ -7,10 +7,10 @@ private:
 	int _percent;
 
 public:
+	PercentDiscount(CategoryType category, int percent);
+
 	int GetPercent();
 	void SetPercent(int percent);
-
-	PercentDiscount(CategoryType category, int percent);
 
 	double Calculate(Product* product);
 };

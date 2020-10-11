@@ -66,19 +66,19 @@ void DemoInheritance::Persons()
 
 void DemoInheritance::Discount()
 {
-	Product* products = new Product[3]
+	Product* products = new Product[PRODUCTS_COUNT]
 	{
 		Product("G-2000-106", GPU, 12000),
-		Product("Intel i7 7600", CPU, 20000),
+		Product("Intel i7 7600", CPU, 9999),
 		Product("Iphone X", SMARTPHONE, 27000)
 	};
 
 	CertificateDiscount* discountOnCPU = new CertificateDiscount(CPU, 10000.0);
-	ShowCheckWithDiscount(discountOnCPU, products, 3);
-	cout << "Certificate lost amount: " << discountOnCPU->GetAmount() << endl << endl;
+	ShowCheckWithDiscount(discountOnCPU, products, PRODUCTS_COUNT);
+	cout << "Certificate amount after use: " << discountOnCPU->GetAmount() << endl << endl;
 
-	PercentDiscount* discountOnGPU = new PercentDiscount(GPU, 30);
-	ShowCheckWithDiscount(discountOnGPU, products, 3);
+	PercentDiscount* discountOnGPU = new PercentDiscount(GPU, 33);
+	ShowCheckWithDiscount(discountOnGPU, products, PRODUCTS_COUNT);
 
 	//DiscountBase(); невозможно
 
